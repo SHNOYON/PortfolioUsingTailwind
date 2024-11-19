@@ -5,6 +5,12 @@ module.exports = {
     extend: {
       fontFamily:{
         nunito:["Nunito", "sans-serif"]
+      },
+      screens:{
+        "sm":"480px"
+      },
+      spacing:{
+        "big":"36rem"
       }
     },
   },

@@ -10,10 +10,10 @@
 </head>
 <body class="font-nunito">
     <!-- intr osection -->
-     <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200">
+     <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
         
         <!-- navbar -->
-         <nav class="w-full fixed top-0 bg-white">
+         <nav class="w-full fixed top-0 bg-white z-10">
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div class="flex items-center gap-2">
                     <img class="w-8" src="./img/logo.png" alt="">
@@ -57,9 +57,13 @@
          </nav>
          
          <!-- intro content -->
-          <div>
-
-          </div>
+         <!-- image -->
+          <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/man.png" alt="">
+         <!-- circle -->
+          <div class="hidden lg:block absolute -bottom-1/4 left-0 right-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+         <!-- animated text -->
+         <!-- other text -->
+          <div></div>
      </div>
      <script src="./app.js"></script>
 </body>
